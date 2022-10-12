@@ -1,0 +1,125 @@
+:root{
+    --fontColor1:#ffabe1;
+    --fontColor2:#FFE6F7;
+    --fontColor3:#937DC2;
+    --backgroundColor:#100F0F;
+   }
+   
+
+.timer__wrapper{
+    margin-top: 50px;
+    padding: 0px 200px;
+    transition: 0.2s ease-in-out 0s;
+    
+}
+.timer__wrapper > p {
+
+}
+
+.timer{
+    display: flex;
+    /* flex: 2; */
+    margin-top: -50px;
+    
+}
+.timer > div{
+  text-align: center;
+}
+.timer > div > h1{
+    font-size: 90px;
+    letter-spacing: 0.5em;
+    color: var(--fontColor2);
+    text-shadow: 0px 0px 21px rgb(255 255 255 / 50%);
+    transition: 0.2s ease-in-out 0s;
+}
+.timer > hr{
+    height: 40px;
+    margin-top: 100px;
+    color: var(--fontColor1);
+    transition: 0.2s ease-in-out 0s;   
+}
+
+@media only screen and (max-width:1399px){}
+@media only screen and (max-width:1199px){
+    
+.timer__wrapper{
+    margin-top: 50px;
+    padding: 0px 100px;
+    
+}
+}
+@media only screen and (max-width:992px){
+    
+.timer__wrapper{
+    margin-top: 50px;
+    padding: 0px 20px;
+    
+}
+}
+@media only screen and (max-width:767px){
+    .timer__wrapper{
+        margin-top: 50px;
+        padding: 0px 20px;
+        
+    }
+    .timer > div > h1{
+        font-size: 60px;
+        letter-spacing: 0.5em;
+        color: var(--fontColor2);
+        text-shadow: 0px 0px 21px rgb(255 255 255 / 50%);
+    }
+    .timer > hr{
+        height: 40px;
+        margin-top: 50px;
+        color: var(--fontColor1);   
+    }
+}
+@media only screen and (max-width:600px){
+    .timer{
+        display: flex;
+        /* flex: 2; */
+        margin-top: 10px;
+        
+    }
+    .timer__wrapper{
+        margin-top: 50px;
+        padding: 0px 10px;
+        
+    }
+    .timer > div > h1{
+        font-size: 40px;
+        letter-spacing: 0.5em;
+        color: var(--fontColor2);
+        text-shadow: 0px 0px 21px rgb(255 255 255 / 50%);
+    }
+    .timer > hr{
+        height: 40px;
+        margin-top: 30px;
+        color: var(--fontColor1);   
+    }
+}
+@media only screen and (max-width:499px){
+    .timer{
+        display: flex;
+        /* flex: 2; */
+        margin-top: 10px;
+        
+    }
+    .timer__wrapper{
+        margin-top: 50px;
+        padding: 0px 10px;
+        
+    }
+    .timer > div > h1{
+        font-size: 25px;
+        /* margin: 0px 10px; */
+        letter-spacing: 0.5em;
+        color: var(--fontColor2);
+        text-shadow: 0px 0px 21px rgb(255 255 255 / 50%);
+    }
+    .timer > hr{
+        height: 40px;
+        margin-top: 30px;
+        color: var(--fontColor1);   
+    }
+}

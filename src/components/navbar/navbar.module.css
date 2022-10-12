@@ -1,0 +1,68 @@
+.navbar__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__left > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out 0s;
+}
+.navbar__left > h2{
+    font-size: 50px;
+    transition: 0.2s ease-in-out 0s;
+}
+.navbar__left > h2:hover{
+    font-size: 50px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar__right > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out 0s;
+}
+.navbar__right > p {
+    cursor: pointer;
+    transition: 0.2s ease-in-out 0s;
+}
+
+/* @media only screen and (max-width:1399px){}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:992px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:600px){}
+@media only screen and (max-width:499px){} */
+@media only screen and (max-width:1399px){}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:992px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:600px){
+    .navbar__left > h2{
+        font-size: 20px;
+        transition: 0.2s ease-in-out 0s;
+    }
+    .navbar__left > img{
+        display: none;
+    }
+    .navbar__right > img{
+        display: none;
+    }
+}
+@media only screen and (max-width:499px){}

@@ -1,13 +1,51 @@
+:root{
+ --fontColor1:#ffabe1;
+ --fontColor2:#FFE6F7;
+ --fontColor3:#937DC2;
+ --backgroundColor:#100F0F;
+}
+
 body {
+  background-color: var(--backgroundColor);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Russo One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  min-height: 150vh;
+  /* letter-spacing: 0.2em; */
+  /* font-style: italic; */
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Russo One', sans-serif;
 }
+.logo{
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  color: var(--fontColor1);
+
+}
+
+.container{
+  margin: 0px 100px;
+}
+p{
+  color: var(--fontColor1);
+}
+
+@media only screen and (max-width:1399px){}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:992px){}
+@media only screen and (max-width:767px){}
+@media only screen and (max-width:600px){
+  .container{
+    margin: 0px 50px;
+  }
+}
+@media only screen and (max-width:499px){
+  .container{
+    margin: 0px 10px;
+  }
+} 
