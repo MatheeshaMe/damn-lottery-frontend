@@ -1,8 +1,8 @@
 :root{
-    --fontColor1:#ffabe1;
+    --fontColor1:#EEEDDE;
     --fontColor2:#FFE6F7;
-    --fontColor3:#937DC2;
-    --backgroundColor:#100F0F;
+    --fontColor3:#EEEEEE;
+    --backgroundColor:#141E27;
 }
 .hero__main__wrapper > h2{
     text-align: center;
@@ -34,7 +34,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 3px solid #ffabe1;
+    border: 3px solid var(--fontColor1);
     border-radius: 10px;
     /* height: 80px;
     width: 400px; */
@@ -47,13 +47,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 3px solid #ffabe1;
+    border: 3px solid var(--fontColor2);
     border-radius: 10px;
     /* height: 80px;
     width: 400px; */
     padding: 5px 20px;
     scale: 1.1;
     transition: 0.2s ease-in-out 0s;
+    color: var(--backgroundColor);
 }
 
 .address{
@@ -107,10 +108,25 @@
     cursor: pointer;
     transition: 0.2s ease-in-out 0s;
 }
+.hero__middle > .buttonDis {
+    padding: 5px 20px;
+    color: var(--fontColor2);
+    background-color: transparent;
+    border: 1px solid var(--fontColor1);
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* cursor: pointer; */
+    transition: 0.2s ease-in-out 0s;
+}
 .hero__middle > .button:hover {
     padding: 5px 20px;
-    color: var(--fontColor3);
-    background-color: var(--fontColor1);
+    /* color: var(--backgroundColor); */
+    /* background-color: var(--fontColor1); */
     align-items: center;
     text-align: center;
     width: 180px;

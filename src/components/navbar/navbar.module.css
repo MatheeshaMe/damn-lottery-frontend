@@ -14,7 +14,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.navbar__right > div {
+    margin-right: 20px;
+    cursor: pointer;
+}
 .navbar__left > img{
     width: 50px;
     height: 50px;
@@ -63,10 +66,38 @@
 @media only screen and (max-width:767px){}
 @media only screen and (max-width:600px){}
 @media only screen and (max-width:499px){} */
-@media only screen and (max-width:1399px){}
-@media only screen and (max-width:1199px){}
-@media only screen and (max-width:992px){}
-@media only screen and (max-width:767px){}
+@media only screen and (max-width:1399px){
+    .modal__wrapper_nav{
+        position: absolute;
+        /* left: 50%; */
+        margin-left:300px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:1199px){
+    .modal__wrapper_nav{
+        position: absolute;
+        /* left: 50%; */
+        margin-left:200px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:992px){
+    .modal__wrapper_nav{
+        position: absolute;
+        /* left: 50%; */
+        margin-left:100px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:767px){
+    .modal__wrapper_nav{
+        position: absolute;
+        /* left: 50%; */
+        margin-left:50px;
+        top: 200px;
+    }
+}
 @media only screen and (max-width:600px){
     .navbar__left > h2{
         font-size: 20px;
@@ -77,6 +108,12 @@
     }
     .navbar__right > img{
         display: none;
+    }
+    .modal__wrapper_nav{
+        position: absolute;
+        /* left: 50%; */
+        margin-left:50px;
+        top: 200px;
     }
 }
 @media only screen and (max-width:499px){}

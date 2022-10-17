@@ -1,10 +1,9 @@
 :root{
-    --fontColor1:#ffabe1;
+    --fontColor1:#EEEDDE;
     --fontColor2:#FFE6F7;
-    --fontColor3:#937DC2;
-    --backgroundColor:#100F0F;
-   }
-
+    --fontColor3:#EEEEEE;
+    --backgroundColor:#141E27;
+}
 .modal__wrapper{
     /* width: 300px;
     height: 200px;
@@ -49,4 +48,37 @@
 
     /* margin-right: 30px; */
     cursor: pointer;
+}
+
+@media only screen and (max-width:1399px){
+    
+.modal__wrapper{
+    width: 600px;
+    height: 500px;
+}
+}
+@media only screen and (max-width:1199px){}
+@media only screen and (max-width:992px){
+    .modal__wrapper{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width:767px){
+    .modal__wrapper{
+   display: none;
+    }
+ 
+}
+@media only screen and (max-width:700px){
+    .displayNone{
+        display: none;
+    }
+}
+@media only screen and (max-width:499px){
+
+    .modal__wrapper{
+        width: 400px;
+        height: 300px;
+    }
 }

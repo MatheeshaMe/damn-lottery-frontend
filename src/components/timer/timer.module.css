@@ -1,10 +1,9 @@
 :root{
-    --fontColor1:#ffabe1;
+    --fontColor1:#EEEDDE;
     --fontColor2:#FFE6F7;
-    --fontColor3:#937DC2;
-    --backgroundColor:#100F0F;
-   }
-   
+    --fontColor3:#EEEEEE;
+    --backgroundColor:#141E27;
+}
 
 .timer__wrapper{
     margin-top: 50px;

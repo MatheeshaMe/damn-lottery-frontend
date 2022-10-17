@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./timer.module.css";
-export default function Timer() {
+export default function Timer({ activatedStatus }) {
   const [daysTimer, setDays] = useState("00");
   const [hoursTimer, setHours] = useState("00");
   const [minutesTimer, setMinutes] = useState("00");
@@ -39,7 +39,13 @@ export default function Timer() {
   });
   return (
     <div className={styles.timer__wrapper}>
-      <p>closing at</p>
+      <p>
+        {activatedStatus == 0 && "Closing "}
+        {activatedStatus == 1 && "Opening "}
+        {activatedStatus == 2 && "Processing "}
+
+        {activatedStatus !== 2 ? "at" : ""}
+      </p>
       <div className={styles.timer}>
         <div>
           <h1>{2}</h1>
