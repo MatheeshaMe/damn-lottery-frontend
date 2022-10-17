@@ -42,7 +42,7 @@ export default function Timer() {
       <p>closing at</p>
       <div className={styles.timer}>
         <div>
-          <h1>{daysTimer}</h1>
+          <h1>{2}</h1>
           <p>Hr</p>
         </div>
         <hr />

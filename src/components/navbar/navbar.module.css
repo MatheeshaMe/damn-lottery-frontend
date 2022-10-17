@@ -1,6 +1,7 @@
 .navbar__wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar__left{
@@ -42,7 +43,20 @@
     cursor: pointer;
     transition: 0.2s ease-in-out 0s;
 }
-
+.navbar__middle{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.winner{
+    cursor: pointer;
+}
+.modal__wrapper_nav{
+    position: absolute;
+    /* left: 50%; */
+    margin-left:400px;
+    top: 100px;
+}
 /* @media only screen and (max-width:1399px){}
 @media only screen and (max-width:1199px){}
 @media only screen and (max-width:992px){}

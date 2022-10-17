@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import icon from "../../images/arrowright1.svg";
 import icon2 from "../../images/arrowright.svg";
-export default function Hero() {
+export default function Hero({connectToMetamask}) {
   return (
     <div className={styles.hero__main__wrapper}>
       <h2>
@@ -20,7 +20,7 @@ export default function Hero() {
           {/* <h2>
           Lottery Is <span>Open</span>
         </h2> */}
-          <div className={styles.button}>
+          <div className={styles.button} onClick={connectToMetamask}>
             <h3>Play</h3> <img src={icon2} />
           </div>
           <p className={styles.p}>
